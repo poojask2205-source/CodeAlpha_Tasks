@@ -60,5 +60,5 @@ Run the following command:
 
 ```bash
 
-python hangama\_game.py
+python hangama.py
 
