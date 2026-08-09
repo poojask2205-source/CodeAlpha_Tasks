@@ -1,90 +1,90 @@
-**TASK 2 : Stock Portfolio Tracker**
+# TASK 2 : Stock Portfolio Tracker 📈
 
+## Description
 
+Stock Portfolio Tracker is a simple Python desktop application that helps users manage their stock investments. The user can select a stock, enter the quantity, and the application calculates the investment amount automatically.
 
-\*\*Project Description\*\*
+The project uses a small list of predefined stocks with fixed prices. Users can add multiple stocks, view their portfolio, check the total investment, and save the portfolio details to a text file.
 
+## Features
 
+* Select stocks from a dropdown list
+* Enter the quantity of stocks
+* Calculate investment automatically
+* Display portfolio details in a table
+* Show total investment
+* Save portfolio to a `.txt` file
+* Clear the portfolio
+* Simple and user-friendly desktop interface
 
-This project is a simple Python-based Stock Portfolio Tracker developed as part of my CodeAlpha internship.
+## Available Stocks
 
+The application contains 5 predefined stocks:
 
+* **AAPL** – $180
+* **TSLA** – $250
+* **GOOGL** – $150
+* **AMZN** – $200
+* **MSFT** – $420
 
-The application allows users to enter stock names and the number of shares they own. It uses a predefined dictionary containing stock prices and calculates the total investment value based on the user's input.
+## How It Works
 
+The investment is calculated using:
 
+```text
+Investment = Stock Price × Quantity
+```
 
-\*\*Features\*\*
+For example, if the user selects AAPL and enters 5 shares:
 
-1.Enter stock names and quantities
+```text
+$180 × 5 = $900
+```
 
-2.Uses predefined stock prices
+The investment amount is then added to the total portfolio value.
 
-3.Calculates total investment value
+## Technologies Used
 
-4.Displays the investment summary
+* Python
+* Tkinter
+* ttk
+* datetime
+* File Handling
 
-5.Simple and user-friendly Python program
+## Key Concepts
 
+* Dictionary
+* Lists
+* Functions
+* Input and Output
+* Basic Arithmetic
+* If-else Conditions
+* Exception Handling
+* File Handling
+* GUI Programming
 
+## How to Run
 
+Make sure Python is installed on your computer.
 
-
-\*\*Technologies Used\*\*
-
-Key Concepts Used
-
-1.Dictionary
-
-2.User input
-
-3.Output
-
-4.Variables
-
-5.Basic arithmetic operations
-
-6.Conditional statements
-
-7.Loops
-
-
-
-
-
-\*\*How It Works\*\*
-
-1.he program contains predefined stock prices.
-
-
-
-2.The user enters the stock name.
-
-
-
-3.The user enters the quantity of shares.
-
-
-
-4.The program calculates the investment value.
-
-
-
-5.The total investment value is displayed.
-
-
-
-\*\*How to Run\*\*
-
-
-
-Run the following command in the terminal:
-
-
+Run the program using:
 
 ```bash
+python tracker.py
+```
+
+## Output File
+
+When the **Save Portfolio** button is clicked, the application saves the portfolio information in:
+
+```text
+stock_investment.txt
+```
+
+The file contains the stock name, quantity, price, investment amount, date, and total investment.
 
 
 
-python stock\_portfolio\_tracker.py
+## Result
 
+The Stock Portfolio Tracker successfully calculates and displays the total investment based on the selected stocks and quantities. It also allows the user to save the portfolio details for future reference.
