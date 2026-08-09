@@ -138,4 +138,4 @@ The SmartBot desktop application will open.
 
 ## Result
 
-The ** Simple Basic Chatbot** successfully provides a simple desktop-based conversation system using predefined rules. It demonstrates the use of Python conditions, functions, loops, input/output, and GUI programming to create an interactive chatbot.
+The ** Simple Basic Chatbot ** successfully provides a simple desktop-based conversation system using predefined rules. It demonstrates the use of Python conditions, functions, loops, input/output, and GUI programming to create an interactive chatbot.
